@@ -20,7 +20,7 @@ session_start(); // Ξεκινήστε τη συνεδρία
     <nav class="navbar navbar-expand-lg navbar-dark ">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="page.php">
+            <a class="navbar-brand" href="page.html">
                 <img src="arkadikamas.jpg" id="logo" alt="Logo">
             </a>
         </div>
@@ -31,10 +31,10 @@ session_start(); // Ξεκινήστε τη συνεδρία
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="products.php">Products</a>
+                    <a class="nav-link active" aria-current="page" href="products.html">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" style="font-family=sans-serif;" href="aboutus.php">About us</a>
+                    <a class="nav-link" style="font-family=sans-serif;" href="aboutus.html">About us</a>
                 </li>
 
                 <?php
@@ -46,9 +46,9 @@ session_start(); // Ξεκινήστε τη συνεδρία
                             Edit
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="editusers.php">Edit Users</a></li>
-                            <li><a class="dropdown-item" href="editorders.php">Edit Orders</a></li>
-                            <li><a class="dropdown-item" href="editproducts.php">Edit Products</a></li>
+                            <li><a class="dropdown-item" href="editusers.html">Edit Users</a></li>
+                            <li><a class="dropdown-item" href="editorders.html">Edit Orders</a></li>
+                            <li><a class="dropdown-item" href="editproducts.html">Edit Products</a></li>
                         </ul>
                     </li>
                     <?php
@@ -64,9 +64,9 @@ session_start(); // Ξεκινήστε τη συνεδρία
                             // Εάν ο χρήστης είναι συνδεδεμένος, εμφανίστε την επιλογή "Logout"
                             ?>
                             <li><a class="dropdown-item" href="logout.php">Logout</a></li>
-                            <li><a class="dropdown-item" href="orders.php">Order History</a></li>
+                            <li><a class="dropdown-item" href="orders.html">Order History</a></li>
 
-                            <li><a class="dropdown-item" href="profile.php">Edit Profile</a></li>
+                            <li><a class="dropdown-item" href="profile.html">Edit Profile</a></li>
                             <?php
                         } else {
                             // Εάν ο χρήστης δεν είναι συνδεδεμένος, εμφανίστε τις επιλογές "Login" και "Sign up"
@@ -140,7 +140,7 @@ session_start(); // Ξεκινήστε τη συνεδρία
             <div class="carousel-caption d-none d-md-block">
                 <h2>Εξυπηρετούμε και Επιχειρήσεις!</h2>
                 <p>Προσφέρουμε εξειδικευμένες λύσεις για την επιχείρησή σας. Επικοινωνήστε μαζί μας για να μάθετε πώς μπορούμε να σας βοηθήσουμε να αναπτύξετε την επιχείρησή σας!</p>
-                <a href="aboutus.php#business-services" class="cta-button">Εξυπηρετούμε και Επιχειρήσεις</a>
+                <a href="aboutus.html#business-services" class="cta-button">Εξυπηρετούμε και Επιχειρήσεις</a>
             </div>
         </div>
         <div class="carousel-item">
@@ -353,7 +353,7 @@ session_start(); // Ξεκινήστε τη συνεδρία
                 <div class="row">
                     <div class="col">
                         <p class="text-center"><strong>Lazania</strong><span class="label label-success">NEW</span></p>
-                        <a href="product.php?id=4" data-toggle="collapse"><img src="lazania.jpg" class="food img-circle"></a>
+                        <a href="product.html?id=4" data-toggle="collapse"><img src="lazania.jpg" class="food img-circle"></a>
                         <div id="demo1" class="collapse-show">
                             <p>Lazania 750gr</p>
                             
@@ -361,14 +361,14 @@ session_start(); // Ξεκινήστε τη συνεδρία
                     </div>
                     <div class="col">
                         <p class="text-center"><strong>Vides Olikis</strong></p>
-                        <a href="product.php?id=24" data-toggle="collapse"><img src="bidesolikhs500.jpg" class="food img-circle"></a>
+                        <a href="product.html?id=24" data-toggle="collapse"><img src="bidesolikhs500.jpg" class="food img-circle"></a>
                         <div id="demo2" class="collapse-show">
                             <p>Vides Olikis 500gr</p>
                         </div>
                     </div>
                     <div class="col">
                         <p class="text-center"><strong>Vides</strong></p>
-                        <a href="product.php?id=27" data-toggle="collapse"><img src="videssoupias.jpg" class="food img-circle"></a>
+                        <a href="product.html?id=27" data-toggle="collapse"><img src="videssoupias.jpg" class="food img-circle"></a>
                         <div id="demo3" class="collapse-show">
                             <p>Vides Soupias</p>
                         </div>
