@@ -1,0 +1,653 @@
+[
+    {
+        "_id": {
+            "$oid": "666721cfd116179f99b980e8"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "3"
+                },
+                "fields": {
+                    "title": "TRAXANAS KSYNOS 500GR",
+                    "price": "9,99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "traxanaskshros500.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66672289d116179f99b980e9"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "4"
+                },
+                "fields": {
+                    "title": "LAZANIA 750GR",
+                    "price": "19,99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "k2.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "666722d0d116179f99b980ea"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "5"
+                },
+                "fields": {
+                    "title": "KRITHARAKI 1KG",
+                    "price": "9.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "k3.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66672315d116179f99b980eb"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "6"
+                },
+                "fields": {
+                    "title": "TRAHANAS GLYKOS 1KG",
+                    "price": "9.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "k5.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66672346d116179f99b980ed"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "7"
+                },
+                "fields": {
+                    "title": "TRAHANAS KSINOS 1KG",
+                    "price": "14.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "k6.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "666723f3d116179f99b980f3"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "8"
+                },
+                "fields": {
+                    "title": "KOHILAKI 500GR",
+                    "price": "9.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "kox.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66672457d116179f99b980f9"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "9"
+                },
+                "fields": {
+                    "title": "XILOPITES 1KG",
+                    "price": "19.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "x1.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "666724fcd116179f99b980ff"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "10"
+                },
+                "fields": {
+                    "title": "XILOPITES 500GR DIKOKKO",
+                    "price": "9.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "d1.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6667252ed116179f99b98103"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "11"
+                },
+                "fields": {
+                    "title": "LAZANIA 500GR DIKOKKO",
+                    "price": "19.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "d2.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6667255dd116179f99b98106"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "12"
+                },
+                "fields": {
+                    "title": "KRIUARAKI 500GR DIKOKKO",
+                    "price": "19.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "d3.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "666725a4d116179f99b9810b"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "13"
+                },
+                "fields": {
+                    "title": "BIDES 500GR DIKOKO",
+                    "price": "19.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "d4.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "666725d5d116179f99b9810e"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "14"
+                },
+                "fields": {
+                    "title": "XYLOPITES NHSTISIMES 1KG",
+                    "price": "33.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "N1.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6667260dd116179f99b98114"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "15"
+                },
+                "fields": {
+                    "title": "LAZANIA NHSTISIMA 1KG",
+                    "price": "19.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "N2.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6667262ad116179f99b98117"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "16"
+                },
+                "fields": {
+                    "title": "KRITHARAKI NHSTISIMO 500GR",
+                    "price": "19.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "N3.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6667265bd116179f99b9811c"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "17"
+                },
+                "fields": {
+                    "title": "MAKARONAKI KOFTO NHSTISIMO 1KG",
+                    "price": "19.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "N4.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6667267dd116179f99b98121"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "18"
+                },
+                "fields": {
+                    "title": "KOXILAKI NHSTISIMO 500GR",
+                    "price": "19.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "N5.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "666726a0d116179f99b98123"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "19"
+                },
+                "fields": {
+                    "title": "BIDES ME FRESKA LAXANIKA 500GR",
+                    "price": "19.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "L1.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "666726c0d116179f99b98124"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "20"
+                },
+                "fields": {
+                    "title": "TRAXANAS GLYKOS XEIROPOIHTOS 500GR ",
+                    "price": "19.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "T2.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "666726ddd116179f99b98125"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "21"
+                },
+                "fields": {
+                    "title": "XYLOPITES OLIKHS 500GR",
+                    "price": "19.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "o1.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "666726fcd116179f99b98126"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "22"
+                },
+                "fields": {
+                    "title": "LAZANIA OLIKHS 1KG",
+                    "price": "19.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "o2.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66672721d116179f99b98128"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "23"
+                },
+                "fields": {
+                    "title": "KRITHARAKI OLIKHS 1KG",
+                    "price": "19.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "o3.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66672743d116179f99b9812e"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "24"
+                },
+                "fields": {
+                    "title": "BIDES OLIKHS 500GR",
+                    "price": "19.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "o5.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66672773d116179f99b98131"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "25"
+                },
+                "fields": {
+                    "title": "KOXYLAKI OLIKHS 500GR",
+                    "price": "4.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "o6.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, φρέσκο γάλα, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66672796d116179f99b98136"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "26"
+                },
+                "fields": {
+                    "title": "MAKARONAKI KOFTO ME MELANI SOYPIAS 500GR",
+                    "price": "4.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "S1.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "666727c3d116179f99b98139"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "27"
+                },
+                "fields": {
+                    "title": "BIDES ME MELANI SOYPIAS 500GR",
+                    "price": "2.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "S2.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6668493e670ff68bf9fc6cfa"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "1"
+                },
+                "fields": {
+                    "title": "TRAHANAS KSINOS XEIROPOIHTOS 1KG",
+                    "price": "9,99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "T1.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6668b0a5f98fab1711017a1f"
+        },
+        "items": [
+            {
+                "sys": {
+                    "id": "28"
+                },
+                "fields": {
+                    "title": "MAKARONAKI KOFTO 500GR",
+                    "price": "9.99",
+                    "image": {
+                        "fields": {
+                            "file": {
+                                "url": "k4.jpg"
+                            }
+                        }
+                    },
+                    "syst": "Συστατικά: φρέσκα αυγά, ξινόγαλο, αλεύρι ολικής, αλάτι"
+                }
+            }
+        ]
+    }
+]

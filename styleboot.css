@@ -1,0 +1,1934 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+:root{
+  --after-content:'2'
+}
+
+
+body {
+
+  margin: 0;
+
+  padding: 0;
+
+  font-family:'Playfair Display',serif;
+
+  font-size: 15px;
+
+  line-height: 1.5;
+
+  background-color: #f4f4f4;
+
+  box-sizing: border-box;
+  background-color: #ffffff; /* Used if the image is unavailable */
+  height: 1100px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#logo{
+    width:55px;
+    height:55px;
+  
+}
+#logo:hover{
+    opacity:0.7;
+}
+/* Βασικό στυλ navbar */
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+  background-color: #f08521;
+  border: 0;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  opacity: 0.95;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Σκιά για βάθος */
+}
+
+/* Στυλ για τα links και το brand */
+.navbar li a, .navbar .navbar-brand {
+  color: #ffffff !important;
+  transition: color 0.3s ease; /* Ομαλή μετάβαση χρώματος */
+}
+
+/* Hover effects */
+.navbar-nav li a:hover {
+  background-color: #e47b03 !important;
+  color: #ffffff !important;
+  border-radius: 5px; /* Στρογγυλεμένες γωνίες */
+  transition: background-color 0.3s ease;
+}
+
+/* Στυλ για το dropdown */
+.open .dropdown-toggle {
+  color: #ffffff;
+  background-color: #555 !important;
+}
+
+.dropdown-menu {
+  background-color: #f08521; /* Σκούρο πορτοκαλί για το μενού */
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Προσθήκη σκιάς */
+}
+
+/* Στυλ για τα dropdown items */
+.dropdown-menu li a {
+  color: #ffffff !important;
+  padding: 10px 20px; /* Καλύτερο padding για ευχρηστία */
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #e47b03 !important;
+  color: #ffffff !important;
+}
+
+/* Στυλ για το αναζήτησης */
+#search-item {
+  padding: 7px 15px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  transition: border-color 0.3s ease;
+  outline: none;
+}
+
+#search-item:focus {
+  border-color: #e47b03;
+}
+
+/* Στυλ για το cart και favorite icons */
+.cart-btn, .heart-btn {
+  margin-left: 20px;
+  position: relative;
+}
+
+.nav-icon, .nav1-icon {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.cart-items, .heart-items {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background-color: #ffffff;
+  color: #f08521;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 6px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Προσαρμογές για το κινητό */
+@media (max-width: 768px) {
+  .navbar-nav {
+      text-align: center;
+  }
+
+  .cart-btn, .heart-btn {
+      margin-left: 10px;
+  }
+
+  #search-item {
+      margin-top: 10px;
+  }
+}
+
+h3, h4{
+    margin:10px 0 30px 0;
+    font-family:'DM Serif Display', Georgia, "Times New Roman", serif;
+    letter-spacing:6px;
+    font-size:20px;
+    color:#000000;
+}
+.btn-orange {
+  background-color: #d68102; /* Πορτοκαλί χρώμα */
+  color: white; /* Λευκό χρώμα στο κείμενο */
+  border: none; /* Αφαίρεση του default περιγράμματος */
+}
+.custom-btn {
+  color: orange; /* Χρώμα κειμένου */
+  background-color: white; /* Χρώμα φόντου */
+  border: 2px solid orange; /* Χρώμα πλαισίου */
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.custom-btn:hover {
+  background-color: orange; /* Αλλαγή φόντου στο hover */
+  color: white; /* Αλλαγή χρώματος κειμένου στο hover */
+}
+
+
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.background-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.overlay {
+  position: absolute;
+
+  bottom: 10px;
+  left: 130px;
+  transform: translateY(-50%);
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #ff9800;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #e68900;
+}
+
+.container5 {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  margin: 50px auto 50px auto;
+
+}
+
+.container5 h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container5 p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.container5 a {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #f08521;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.container5 a:hover {
+  background-color: #e47b03;
+}
+
+.container5 .icon {
+  font-size: 60px;
+  color: #f08521;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.card5 {
+  /* Σκιά για την κάρτα */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+  color: #333; /* Σκούρο χρώμα για καλύτερη αντίθεση */
+  margin-bottom: 20px; /* Αυξήστε το διάστημα κάτω από την κάρτα */
+  border-radius: 10px; /* Στρογγυλεμένες γωνίες */
+  overflow: hidden; /* Για να κρύψετε τυχόν υπερβάσεις */
+}
+
+/* Εφέ hover για την κάρτα */
+.card5:hover {
+  transform: translateY(-5px); /* Μετακίνηση προς τα πάνω */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3); /* Αυξάνει τη σκιά */
+}
+
+/* Τίτλος και τιμή */
+.card5 h3, .card5 h4 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.product-ratings-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#single-product-container {
+  flex: 1;
+  margin-right: 20px; /* Απόσταση μεταξύ των προϊόντων και των βαθμολογιών */
+  max-width: 700px;
+  margin-top: 50px;
+}
+.product-ratings-wrapper {
+  max-width: 800px; /* Ύψος για το περιεχόμενο */
+  margin: 0 auto; /* Κέντρο */
+  padding: 20px;
+  background-color: #f3f3f3; /* Ελαφρύ χρώμα φόντου */
+  border-radius: 8px; /* Στρογγυλεμένες γωνίες */
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.952); /* Σκιά */
+}
+
+.quantity-container {
+  display: flex; /* Εμφάνιση σε σειρά */
+  align-items: center; /* Κέντρο κάθετα */
+  margin-bottom: 20px;
+}
+
+.quantity-container label {
+  margin-right: 10px; /* Απόσταση μεταξύ ετικέτας και input */
+}
+
+.add-to-cart-btn {
+  margin-left: 10px; /* Απόσταση από το input */
+}
+
+h3 {
+  margin-top: 30px; /* Απόσταση πάνω από τους τίτλους */
+  margin-bottom: 10px; /* Απόσταση κάτω από τους τίτλους */
+  font-weight: bold; /* Έντονος τίτλος */
+}
+
+
+.add-to-cart-btn {
+  background-color: #007bff; /* Χρώμα κουμπιού */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #0056b3; /* Σκούρο μπλε κατά το hover */
+}
+.flex-container {
+    
+   
+  display: flex;
+      
+      
+  justify-content: space-between;
+  align-items: flex-start;
+      
+      
+  margin-top: 20px;
+  }
+
+  .text-container {
+    flex: 1;   
+    margin-right: 20px; /* Απόσταση μεταξύ κειμένου και εικόνας */
+    margin-top: 100px;
+    }
+    .image-container {
+      flex: 1;
+      
+      
+  display: flex;
+      
+  
+     
+  justify-content: center; /* Κεντράρισμα εικόνας */
+      
+    
+  align-items: center;
+  }
+  
+  p{
+    margin-left: 0px;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .image-container img {
+      
+      
+  max-width: 100%; /* Προσαρμογή εικόνας */
+      
+     
+  height: auto;
+      
+  border-radius: 10px; /* Στρογγυλεμένες γωνίες */
+  }
+  
+  .map-container {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #f9f9f9; /* Απαλό φόντο για να ξεχωρίζει ο χάρτης */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Απαλή σκιά */
+    text-align: center; /* Κεντράρισμα του χάρτη και τίτλου */
+}
+
+.map-container h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333; /* Πιο σκούρο χρώμα για τον τίτλο */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.map-container iframe {
+    width: 100%; /* Responsive πλάτος */
+    height: 450px; /* Σταθερό ύψος */
+    border: none;
+    border-radius: 10px; /* Στρογγυλεμένες γωνίες στο iframe */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Προσθήκη σκιάς για το iframe */
+}
+
+/* Responsive προσαρμογές */
+@media (max-width: 768px) {
+    .map-container iframe {
+        height: 300px; /* Μειώνουμε το ύψος του χάρτη σε μικρότερες οθόνες */
+    }
+}
+
+  
+  iframe {
+      width: 100%;
+      
+      
+  
+      
+  height: 400px; /* Αυξήθηκε το ύψος */
+      border: none;
+  }
+  
+  
+  
+
+
+
+/* On mouse-over, add a deeper shadow */
+.card5:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.nav-icon{
+  font-size: 2rem;
+}
+.nav1-icon{
+  font-size: 2.2rem;
+}
+.container2{
+  background-image: url(rasta.jpg);
+  width: 100%;
+
+}
+.cart-btn{
+  position: relative;
+  cursor: pointer;
+  margin-right: 30px;
+  text-align: right;
+  
+}
+.cart-items{
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #e47b03;
+  padding: 0 5px;
+  border-radius: 30%;
+  color: #ccc;
+}
+.heart-btn{
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+  text-align: right;
+}
+.heart-items{
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #e47b03;
+  padding: 0 5px;
+  border-radius: 30%;
+  color: #ccc;
+}
+.container-fluid input[type=text]{
+  width: 200px;
+  margin-right: 70px;
+}
+.container-fluid .fa-search{
+  width:50px;
+  height: 20px;
+  cursor:pointer;
+}
+.checkout-content {
+  min-height: 300px; /* Ρυθμίστε το επιθυμητό ύψος */
+  border: 1px solid #ddd; /* Προσθέστε όρια για να δείτε τις διαστάσεις του στοιχείου */
+  padding: 20px; /* Προσθέστε padding αν χρειάζεται */
+}
+#result.products-center{
+  display: grid;
+  place-items: center;
+
+}
+#result.favorites-center{
+  display: grid;
+  place-items: center;
+
+}
+
+#result.products-center p{
+  justify-self: center;
+
+    font-size: 3rem;
+  color: #e47b03;
+
+}
+h1.display-1{
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f0f0f0; /* Optional: background color */
+  padding: 10px;
+  font-size: 70px;
+  color: #333;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a.newcustom:link{
+  margin-right: 1500px;
+}
+/*buttons for categories*/
+.btn-success{
+  margin-left: 5px;
+  padding: 3px 100px;
+  margin-bottom: 10px;
+}
+.btn-danger{
+  margin-right:5px;
+  padding: 3px 100px;
+}
+
+.btn-dark{
+  padding: 3px 200px;
+  margin-bottom: 50px;
+}
+
+.card.px-4{
+  margin-bottom: 100px;
+  margin-top:80px;
+}
+.card{
+  background-color: #c56b05;
+  margin-top: 40px;
+}
+._success {
+  box-shadow: 0 15px 25px #00000019;
+  padding: 45px;
+  width: 100%;
+  text-align: center;
+  margin: 40px auto;
+  border-bottom: solid 4px #1c8635;
+}
+
+._success i {
+  font-size: 55px;
+  color: #02330d;
+}
+
+._success h2 {
+  margin-bottom: 12px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 10px;
+}
+
+._success p {
+  margin-bottom: 0px;
+  font-size: 18px;
+  color: #495057;
+  font-weight: 500;
+}
+
+.svg-inline--fa.fa-check-circle.fa-w-16{
+  color: #e47b03;
+  width: 100%;
+  height: 100px;
+}
+#payment-button{
+  color: #e47b03;
+  width: 100%;
+  height: 10px;
+}
+/* Main Products Section */
+.products {
+  padding: 4rem 0;
+  background-color: #f8f9fa;
+}
+
+.section-title h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-transform: capitalize;
+  color: #343a40;
+}
+
+.products-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+/* Individual Product Card */
+.product {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.product:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Το container της εικόνας */
+.img-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%; /* Κάνει το πλαίσιο τετράγωνο */
+  overflow: hidden;
+}
+/* Η εικόνα του προϊόντος */
+.product-img {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  width: auto; /* Αφήνουμε το πλάτος αυτόματο */
+  height: 100%; /* Κάνουμε την εικόνα να έχει ύψος 100% του container */
+  transform: translate(-50%, -50%); /* Κεντράρουμε την εικόνα */
+}
+
+
+
+/* Overlay on Hover */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.product:hover .overlay {
+  opacity: 1;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Κεντράρισμα των κουμπιών */
+  margin-top: 10px; /* Απόσταση από τον τίτλο */
+}
+
+.bag-btn, .favorite-btn {
+  border: none;
+  background-color: #f09c1e; /* Χρώμα κουμπιού */
+  color: white; /* Χρώμα κειμένου */
+  border-radius: 5px;
+  padding: 10px; /* Εσωτερικό περιθώριο */
+  margin: 0 5px; /* Απόσταση μεταξύ κουμπιών */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.bag-btn:hover, .favorite-btn:hover {
+  background-color: #ec9410; /* Σκούρο μπλε κατά το hover */
+  transform: scale(1.1); /* Ελαφρώς μεγαλύτερο κατά το hover */
+}
+
+/* Στυλ για τα εικονίδια */
+.bag-btn i, .favorite-btn i {
+  margin-right: 5px; /* Απόσταση από το κείμενο */
+}
+
+.product-info {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.product-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #343a40;
+  margin-bottom: 0.5rem;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #28a745;
+}
+
+/* Add some space at the bottom */
+.product-info h4 {
+  margin-bottom: 1rem;
+}
+article.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: #ffffff;
+  max-width: 300px; /* Το μέγιστο πλάτος της κάρτας του προϊόντος */
+  margin: auto;
+}
+
+article.favorites{
+  padding: 4rem 0;
+   /* Add shadows to create the "card" effect */
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   background-color: #9b7b57;
+}
+
+article.favorites h3{
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-bottom: 100%; /* Κάνει το πλαίσιο τετράγωνο */
+  overflow: hidden;
+}
+.single-product-container {
+  width: 90vw;
+  margin-bottom:100px;
+  margin-top: 100px;
+  margin-left: 20px;
+  height: 500px;
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,  1fr));
+  grid-column-gap:1.5rem;
+  grid-row-gap:2rem;
+}
+.single-product-container .card5 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: #f0f0f0;
+  margin-bottom: 10px;
+}
+
+.single-product-container .img-container {
+  display: block;
+  width: 100%;
+  height:20rem;
+  transition: all 0.3s linear;}
+
+/* Και ούτω καθεξής */
+
+
+.favorite1-btn{
+  background-color: #e47b03;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px
+}
+
+
+.fa-cart-plus{
+  margin-right: 0.5rem;
+  color: #9b7b57;
+}
+.fa-heart{
+  margin-left: 0.5rem;
+  color: #9b7b57;
+}
+ 
+.product {
+  border: 1px solid #e47b03; /* Πάχος πλαισίου και χρώμα */
+  padding: 10px; /* Απόσταση εσωτερικού περιεχομένου από το πλαίσιο */
+  border-radius: 5px; /* Στρογγυλεμένες γωνίες */
+}
+
+.favorite-img{  display: block;
+  width: 100%;
+  height:15rem;
+  transition: all 0.3s linear;
+}
+.img-container:hover .product-img{
+  opacity: 0.5;
+}
+.product h3{
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+
+.product h4{
+  margin-top: 0.7rem;
+  background-color:#2d2d30;
+  color: white;
+  text-align: center;
+}
+
+.img-container {
+  text-align: center;
+}
+img.favorites-img{
+  display: block;
+  width: 100%;
+  height:15rem;
+  transition: all 0.3s linear;
+}
+.heart-items {
+  font-size: 1.2em;
+  color: white;
+}
+.favorites-container {
+  display: grid;
+  place-items: center;
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,  1fr));
+  grid-column-gap:1.5rem;
+  grid-row-gap:2rem;
+
+}
+
+
+
+#result.products-center p{
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f0f0f0; /* Optional: background color */
+  padding: 20px;
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 150px;
+  margin-top:100px;
+}
+
+
+/* Ανακατεύθυνση στοιχείων βαθμολογίας */
+@media screen and (max-width: 768px) {
+  #ratings-container {
+      float: none;
+      width: 100%;
+  }
+}
+
+
+/* Προσαρμόστε τα χρώματα και τα χαρακτηριστικά σύμφωνα με τις ανάγκες σας */
+
+/* Στυλ της εικόνας του προϊόντος αναζήτησης */
+.searched-products {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr)); /* 4 στήλες */
+  gap: 20px;
+}
+/* Ρυθμίστε τη διάταξη του grid system για τα προϊόντα */
+.products-center {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr)); /* 4 στήλες */
+  gap: 20px;
+  /* Άλλα στυλ που θέλετε να διατηρήσετε */
+}
+
+/* Media query για μικρότερες οθόνες (π.χ. smartphones) */
+@media (max-width: 768px) {
+  .products-center {
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+    gap: 10px;
+    /* Άλλες απαραίτητες αλλαγές για μικρότερες οθόνες */
+  }
+  .favorites {
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+    gap: 10px;
+    /* Άλλες απαραίτητες αλλαγές για μικρότερες οθόνες */
+  }
+}
+#no-results-message {
+    display: none;
+    text-align: center;
+    font-size: 5rem;
+    color: #e47b03; 
+    font-family: sans-serif; /* Επιλογή γραμματοσειράς */
+    padding: 20px; /* Περιθώριο εσωτερικά */
+    background-color: #f0f0f0; /* Φόντο χρώμα */
+    border-radius: 10px; /* Στρογγυλεμένες γωνίες */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Σκιά */
+    margin: 20px auto; /* Κεντράρισμα οριζόντια */
+    max-width: 80%; /* Μέγιστο πλάτος */
+   
+}
+.aboutmes p{
+  font-size: 2rem;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.photocontainer {
+  width: 100%; /* Πλήρης εκτέλεση οριζόντιας εκτεταμένης φωτογραφίας */
+  max-width: 2500px;
+  margin: auto;
+  background-image: url('arkadikamas.jpg'); /* Αντικαταστήστε με τη διαδρομή της φωτογραφίας σας */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px; /* Ύψος της φωτογραφίας */
+  border-radius: 10px; /* Στρογγυλεμένες γωνίες */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Σκίαση */
+}
+
+
+img.food.img-circle{
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  opacity: 0.7;
+
+}
+img.food.img-circle:hover{
+  opacity: 1; /* Αυξάνει την αδιαφάνεια ώστε να φαίνονται καθαρά */
+    transform: scale(1.05); /* Μικρή μεγέθυνση της εικόνας */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Προσθήκη σκιάς για να φαίνονται πιο έντονες */
+}
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.searched-products .product .product-img {
+  display: block;
+  width: 100%;
+  height: 15rem;
+  transition: all 0.3s linear;
+}
+
+/* Στυλ της εικόνας του προϊόντος αναζήτησης κατά την αιώρηση (hover) */
+.searched-products .product .product-img:hover {
+  opacity: 0.5;
+}
+
+/* Στυλ του τίτλου του προϊόντος αναζήτησης */
+.searched-products .product h3 {
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* Στυλ της τιμής του προϊόντος αναζήτησης */
+.searched-products .product h4 {
+  margin-top: 0.7rem;
+  background-color: #2d2d30;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+/*CART*/
+.cart-overlay{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background: #e47b03;
+  z-index: 2;
+  visibility: hidden; 
+}
+.cart{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  z-index: 3;
+  background: #ddd;
+  padding: 1.5rem;
+  transition: all 0.3s linear; 
+  transform:translateX(100%);
+}
+.cart h2{
+  text-align: center;
+}
+.showCart{
+  transform: translateX(0);
+}
+.transparentBcg{
+  visibility: visible;
+}
+#checkout-page .cart {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  top: 80px; /* Ύψος του navbar. Αλλάξτε ανάλογα με το σχεδιασμό σας */
+  left: 0;
+  margin: 0;
+}
+
+
+
+@media screen  and (min-width: 768px) {
+  .cart  {
+    width:30vw;
+    min-width: 450px;
+  }
+}
+.close-cart{
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+.cart-h2{
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+/*CART ITEM*/
+.cart-item{
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 1fr auto;
+  grid-column-gap:1.5rem;
+  margin: 1.5rem 0;
+}
+.cart-item img{
+  width: 75px;
+  height: 75px;
+}
+.cart-item h4{
+  font-size: 0.85rem;
+  text-transform: capitalize;
+}
+.cart-item h5{
+  margin: 0.5rem 0;
+}
+.item-amount{
+  text-align: center;
+}
+.remove-item{
+  color: gray;
+  cursor: pointer;
+}
+.fa-chevron-up,
+.fa-chevron-down{
+  color: #e47b03;
+  cursor: pointer;
+}
+
+
+/* cart footer*/
+.cart-footer{
+  margin-top: 2rem;
+  text-align: center;
+}
+.cart-footer h3{
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+/*end of cart*/
+
+.carousel-inner {
+  width: 100%;
+  height: 700px; /* Καλύπτει ολόκληρο το ύψος του container */
+  margin: 0 auto; /* Κεντράρουμε την εικόνα οριζόντια */
+
+}
+.carousel-item {
+  position: relative; /* Σημαντικό για να δουλέψει η απόλυτη τοποθέτηση */
+}
+.banner-text {
+  position: absolute; /* Απόλυτη τοποθέτηση για να είναι πάνω από την εικόνα */
+  top: 50%; /* Μπορείτε να ρυθμίσετε την απόσταση από την κορυφή */
+  left: 50%; /* Κέντρο οριζόντια */
+  transform: translateX(-50%); /* Κεντράρισμα */
+  color: white; /* Χρώμα κειμένου */
+  background-color: rgba(255, 255, 255, 0.747); /* Διαφάνεια φόντου για καλύτερη αναγνωσιμότητα */
+  padding: 10px 20px; /* Εσωτερικό περιθώριο */
+  border-radius: 5px; /* Στρογγυλεμένες γωνίες */
+  text-align: center; /* Κεντρική ευθυγράμμιση κειμένου */
+  font-size: 18px; /* Μέγεθος γραμματοσειράς */
+}
+.product-syst {
+  color: #555; /* Χρώμα κειμένου */
+  font-size: 0.9em; /* Μέγεθος γραμματοσειράς */
+  margin: 10px 0; /* Περιθώριο γύρω από το κείμενο */
+}
+
+
+.carousel-caption {
+  position: absolute; /* Απόλυτη τοποθέτηση πάνω από την εικόνα */
+  top: 50%; /* Κέντρο κάθετα */
+  left: 50%; /* Κέντρο οριζόντια */
+  transform: translate(-50%, -50%); /* Κεντράρισμα */
+  color: white; /* Χρώμα κειμένου */
+  text-align: center; /* Κεντρική ευθυγράμμιση κειμένου */
+  background-color: rgba(0, 0, 0, 0.5); /* Διαφάνεια φόντου για καλύτερη αναγνωσιμότητα */
+  padding: 20px; /* Εσωτερικό περιθώριο */
+  border-radius: 10px; /* Στρογγυλεμένες γωνίες */
+}
+
+.d-block.w-50{
+  width: 100%;
+}
+
+
+
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+#myCarousel{
+    margin-top:50px;
+}
+.carousel-inner img{
+    width:80%;
+    height:600px;
+    margin:0;
+    margin-right:0;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  outline:#e47b03;
+  background-color: #e47b03;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid #e47b03;
+}
+.container{
+    padding:80px 120px;
+}
+#demo1, #demo2, #demo3{
+    text-align:center;
+   
+}
+.btn.btn-primary{
+  background-color: #e47b03;
+  color: white;
+  padding: 7px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button#payment-button.btn.btn-primary{
+  background-color: #e47b03;
+  color: white;
+  padding: 7px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.food{
+    border:10px solid transparent;
+    margin-bottom: 25px;
+    margin-left: 60px;
+    width: 250px;
+    height:200px;
+    opacity:0.7;
+}
+
+
+.food:hover{
+    border-color:#f1f1f1;
+}
+.bg-1{
+    background-image: url("genika.jpg");
+    width: 100%;
+    background-size: cover; /* Προσαρμόστε το ύψος σύμφωνα με το περιεχόμενο */
+    background-position: center;
+}
+.bg-1 h3{
+    color:black !important;
+    font-size: 40px;
+}
+.bg-1 p{
+    font-style:italic;
+    font-size: 20px;
+}
+.btn1{
+  font-size: 15px;
+  padding: 12px 28px;
+  width: 50%;
+}
+
+/*----cart items----*/
+.cart-page{
+  margin: 80px auto;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.cart-info{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+th{
+ text-align: left;
+ padding: 5px;
+ color: #fff;
+ background: livegreen;
+ font-weight: normal;
+
+}
+td{
+  padding: 10px 5px;
+}
+td input{
+  width:40px;
+  height: 30px;
+  padding: 5px;
+}
+td a{
+  color:#e47b03 ;
+  font-size: 12px;
+}
+td img{
+  width: 170px;
+  height: 170px;
+  margin-right: 10px;
+  margin-top: 50px;
+
+}
+.total-price{
+  display: flex;
+  justify-content: flex-end;
+}
+.total-price table{
+  border-top:3px solid livegreen;
+  width:100%;
+  max-width: 350px;
+
+}
+td:last-child{
+  text-align: right;
+}
+th:last-child{
+  text-align: right;
+}
+strong{
+  font-size: 1.2rem;
+}
+.products-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  flex: 0 0 calc(33.333% - 20px); /* Ορίζει το πλάτος κάθε προϊόντος σε τρία τρίτα του γονικού container, αφαιρώντας ένα μικρό περιθώριο */
+  margin: 10px;
+  box-sizing: border-box; /* Αποφεύγει την προσθήκη επιπλέον padding/border στο συνολικό πλάτος του προϊόντος */
+}
+
+.product-info {
+  text-align: center;
+}
+
+.product-info img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-info h3 {
+  margin: 0;
+}
+
+
+
+/* Στυλ για τη νέα κάρτα προϊόντος */
+.product-new {
+  width: 100%;
+  max-width: 400px;
+  margin: 1rem auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* Μεγαλύτερη κάρτα */
+.card-larger {
+  padding: 1.5rem;
+}
+/* Κύριο Flexbox container για να ευθυγραμμιστούν αριστερά και δεξιά */
+.product-ratings-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem; /* Απόσταση μεταξύ των τμημάτων */
+  padding: 1rem;
+}
+
+/* Αριστερή πλευρά: Εικόνα, Τίτλος, Τιμή, Κουμπιά */
+#single-product-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.img-container-larger {
+  width: 100%;
+  position: relative;
+}
+
+.item-img-larger {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.item-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.item-price {
+  font-size: 1.25rem;
+  color: #e63946;
+  margin-bottom: 1.5rem;
+}
+
+.button-container-new {
+  display: flex;
+  gap: 1rem;
+}
+
+.bag-btn, .favorite-btn {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #2a9d8f;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.favorite-btn {
+  background-color: #f4a261;
+}
+
+.bag-btn:hover {
+  background-color: #21867a;
+}
+
+.favorite-btn:hover {
+  background-color: #e76f51;
+}
+
+/* Ενότητα φόντου για επιχειρήσεις */
+.business-banner {
+  background-image: url('b2b.png'); /* Προσάρμοσε το URL της εικόνας */
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.business-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Ημί-διαφανές overlay για καλύτερη αντίθεση */
+  z-index: 1;
+}
+
+.business-content {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.business-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.business-content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+/* Στυλ για το section */
+#business-services {
+  background-color: #f9f9f9; /* Απαλό γκρι για φόντο */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Στυλ για τον τίτλο */
+#business-services h2 {
+  color: #333;
+  text-align: center;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+
+/* Στυλ για τις παραγράφους */
+#business-services p {
+  color: #666;
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Στυλ για τη λίστα υπηρεσιών */
+#business-services ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#business-services ul li {
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  color: #444;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 22%; /* Τα αντικείμενα να έχουν ίσο πλάτος */
+}
+
+/* Στυλ για τη φόρμα */
+#business-services form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Στυλ για τα labels */
+#business-services label {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Στυλ για τα πεδία input και textarea */
+#business-services input[type="text"],
+#business-services input[type="email"],
+#business-services textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  transition: border-color 0.3s;
+}
+
+#business-services input[type="text"]:focus,
+#business-services input[type="email"]:focus,
+#business-services textarea:focus {
+  border-color: #666;
+  outline: none;
+}
+
+/* Στυλ για το κουμπί */
+#business-services button[type="submit"] {
+  background-color: #ff9e0c;
+  color: white;
+  padding: 15px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#business-services button[type="submit"]:hover {
+  background-color: #ffae18;
+}
+
+/* Προσθήκη responsive σχεδιασμού για κινητά */
+@media (max-width: 768px) {
+  #business-services ul {
+      flex-direction: column;
+      gap: 15px;
+  }
+
+  #business-services ul li {
+      width: 100%;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.cta-button {
+  background-color: #ff6f61;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ff3f3f;
+}
+
+
+
+/* Δεξιά πλευρά: Συστατικά και Βαθμολογίες */
+.product-details-container {
+  flex: 1;
+  margin-top: 100px;
+
+}
+
+.ratings-container h3, .product-details-container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.rating span {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.rating span:first-child {
+  color: #f39c12; /* Χρώμα αστεριών */
+}
+
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+    width: 70%; /* Μειωμένο πλάτος της φόρμας */
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 300px;
+    height: 50px;    padding: 22px 10px;
+    margin: 16px 2px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  input.form-control1{
+    width: 100%;
+   text-align: center;
+
+  }
+  /* Set a style for all buttons */
+  button {
+    background-color: #e47b03;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #e47b03;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: center;
+    padding-top: 16px;
+  }
+  /* New Acc*/
+  span.new{
+    float:right;
+    padding-top:16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    span.new{
+        display:block;
+        float:none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+    
+  }
+  * {box-sizing: border-box}
+
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  .products-image {
+    max-width: 10%; /* Καθορίζει το μέγιστο πλάτος στο 100% του περιεχομένου του παρόγχου */
+    max-height: 40px; /* Καθορίζει το μέγιστο ύψος σε 400 pixels */
+  
+}
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #e47b03;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+input[type=text], input[type=password] {
+    
+    width: 100%;
+    padding: 20px 40px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #e47b03;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #e47b03;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: center;
+    padding-top: 16px;
+  }
+  span.new{
+    float:right;
+    padding-top: 16px;
+  }
+  .gradient-custom {
+    background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+      linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+      linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+      radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+      radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+    background-blend-mode: screen, color-dodge, overlay, difference, normal;
+  }
+  .custom-small-button {
+    width: 40%; /* Ορίστε το επιθυμητό πλάτος */
+    height: 12px; /* Ορίστε το επιθυμητό ύψος */
+  }
+  
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    span.new{
+        display:block;
+        float:none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  } 
+  /*user profil*/
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}  
+/* Βασικό στυλ footer */
+.footer {
+  position: relative;
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #333333; /* Σκούρο χρώμα για πιο μοντέρνα εμφάνιση */
+  margin-bottom: 0;
+  color: #fff;
+  text-align: center; /* Κεντράρισμα του κειμένου */
+}
+
+.footer h3 {
+  color: #f08521; /* Πορτοκαλί για να ταιριάζει με το brand */
+  margin-bottom: 1.5rem;
+  font-size: 25px;
+}
+
+.footer p, .footer a {
+  color: #b5b5b5;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer .social-links a {
+  color: #b5b5b5;
+  margin-right: 15px;
+  font-size: 24px;
+  transition: color 0.3s ease, transform 0.3s ease; /* Ομαλή μετάβαση */
+}
+
+.footer .social-links a:hover {
+  color: #f08521; /* Πορτοκαλί hover για να ταιριάζει */
+  transform: translateY(-3px); /* Ελαφριά κίνηση προς τα πάνω κατά το hover */
+}
+
+.footer hr {
+  border-top: 1px solid #444;
+  margin: 2rem 0;
+}
+
+.footer .copyright {
+  color: #777;
+  font-size: 14px;
+  margin-top: 1rem;
+}
+
+/* Responsive Προσαρμογές */
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+  
+  .footer .col-md-4 {
+    margin-bottom: 2rem;
+  }
+
+  .footer .social-links a {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+}
+
