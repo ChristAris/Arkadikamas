@@ -1,0 +1,101 @@
+{
+    "items":[
+      {
+        "sys": {
+            "id": "4"
+        },
+        "fields": {
+            "title": "LAZANIA 750GR",
+            "price": "19,99",
+            "image": {
+                "fields": {
+                    "file": {
+                        "url": "k2.jpg"
+                    }
+                }
+            }
+        }
+    },
+    {
+      "sys": {
+          "id": "5"
+      },
+      "fields": {
+          "title": "KRITHARAKI 1KG",
+          "price": "9.99",
+          "image": {
+              "fields": {
+                  "file": {
+                      "url": "k3.jpg"
+                  }
+              }
+          }
+      }
+  },
+  {
+    "sys": {
+        "id": "6"
+    },
+    "fields": {
+        "title": "TRAHANAS GLYKOS 1KG",
+        "price": "9.99",
+        "image": {
+            "fields": {
+                "file": {
+                    "url": "k5.jpg"
+                }
+            }
+        }
+    }
+},
+{
+  "sys": {
+      "id": "7"
+  },
+  "fields": {
+      "title": "TRAHANAS KSINOS 1KG",
+      "price": "14.99",
+      "image": {
+          "fields": {
+              "file": {
+                  "url": "k6.jpg"
+              }
+          }
+      }
+  }
+},
+{
+  "sys": {
+      "id": "8"
+  },
+  "fields": {
+      "title": "KOHILAKI 500GR",
+      "price": "9.99",
+      "image": {
+          "fields": {
+              "file": {
+                  "url": "kox.jpg"
+              }
+          }
+      }
+  }
+},
+{
+  "sys": {
+      "id": "9"
+  },
+  "fields": {
+      "title": "XILOPITES 1KG",
+      "price": "19.99",
+      "image": {
+          "fields": {
+              "file": {
+                  "url": "x1.jpg"
+              }
+          }
+      }
+  }
+}
+      
+    ]
+}

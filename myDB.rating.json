@@ -1,0 +1,83 @@
+[
+    {
+        "_id": {
+            "$oid": "66eddd7de31f0cfcf1079d0a"
+        },
+        "user_id": "66ed9a46e31f0cfcf1079cf2",
+        "ratings": [
+            {
+                "product_id": "3",
+                "title": "TRAXANAS KSHROS 500GR",
+                "rating": "5",
+                "comment": "\u03b4\u03b1\u03b1\u03b4\u03b1\u03b4\u03b1"
+            },
+            {
+                "product_id": "7",
+                "title": "TRAHANAS KSINOS 1KG",
+                "rating": "1",
+                "comment": "\u03b1\u03b4\u03b1\u03b4\u03b1\u03b4\u03b1\u03b4"
+            }
+        ],
+        "date": {
+            "$date": {
+                "$numberLong": "1726864765083"
+            }
+        }
+    },
+    {
+        "_id": {
+            "$oid": "66edf60fe31f0cfcf1079d0c"
+        },
+        "user_id": "66ed9a46e31f0cfcf1079cf2",
+        "ratings": [
+            {
+                "product_id": "4",
+                "title": "LAZANIA 750GR",
+                "rating": "5",
+                "comment": ""
+            },
+            {
+                "product_id": "3",
+                "title": "TRAXANAS KSHROS 500GR",
+                "rating": "5",
+                "comment": ""
+            },
+            {
+                "product_id": "9",
+                "title": "XILOPITES 1KG",
+                "rating": "5",
+                "comment": ""
+            },
+            {
+                "product_id": "5",
+                "title": "KRITHARAKI 1KG",
+                "rating": "5",
+                "comment": ""
+            }
+        ],
+        "date": {
+            "$date": {
+                "$numberLong": "1726871055601"
+            }
+        }
+    },
+    {
+        "_id": {
+            "$oid": "66f2a65e47dfa223ec06b201"
+        },
+        "user_id": "66ed9a46e31f0cfcf1079cf2",
+        "ratings": [
+            {
+                "product_id": "4",
+                "title": "LAZANIA 750GR",
+                "rating": "3",
+                "comment": "bbb!!"
+            }
+        ],
+        "date": {
+            "$date": {
+                "$numberLong": "1727178334315"
+            }
+        }
+    }
+]

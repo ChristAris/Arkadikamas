@@ -1,0 +1,38 @@
+{
+    "items":[
+  
+{
+    "sys": {
+        "id": "26"
+    },
+    "fields": {
+        "title": "MAKARONAKI KOFTO ME MELANI SOYPIAS 500GR",
+        "price": "4.99",
+        "image": {
+            "fields": {
+                "file": {
+                    "url": "S1.jpg"
+                }
+            }
+        }
+    }
+},
+{
+    "sys": {
+        "id": "27"
+    },
+    "fields": {
+        "title": "BIDES ME MELANI SOYPIAS 500GR",
+        "price": "2.99",
+        "image": {
+            "fields": {
+                "file": {
+                    "url": "S2.jpg"
+                }
+            }
+        }
+    }
+}
+      
+    ]
+}

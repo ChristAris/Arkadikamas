@@ -1,0 +1,68 @@
+{
+"items":[
+  {
+    "sys": {
+        "id": "10"
+    },
+    "fields": {
+        "title": "XILOPITES 500GR DIKOKKO",
+        "price": "9.99",
+        "image": {
+            "fields": {
+                "file": {
+                    "url": "d1.jpg"
+                }
+            }
+        }
+    }
+},
+{
+  "sys": {
+      "id": "11"
+  },
+  "fields": {
+      "title": "LAZANIA 500GR DIKOKKO",
+      "price": "19.99",
+      "image": {
+          "fields": {
+              "file": {
+                  "url": "d2.jpg"
+              }
+          }
+      }
+  }
+},
+{
+  "sys": {
+      "id": "12"
+  },
+  "fields": {
+      "title": "KRIUARAKI 500GR DIKOKKO",
+      "price": "19.99",
+      "image": {
+          "fields": {
+              "file": {
+                  "url": "d3.jpg"
+              }
+          }
+      }
+  }
+},
+{
+  "sys": {
+      "id": "13"
+  },
+  "fields": {
+      "title": "BIDES 500GR DIKOKO",
+      "price": "19.99",
+      "image": {
+          "fields": {
+              "file": {
+                  "url": "d4.jpg"
+              }
+          }
+      }
+  }
+}
+]
+}

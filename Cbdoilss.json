@@ -1,0 +1,84 @@
+{
+    "items":[
+      {
+        "sys": {
+            "id": "3"
+        },
+        "fields": {
+            "title": "TRAXANAS KSHROS 500GR OLIKIS",
+            "price": "9.99",
+            "image": {
+                "fields": {
+                    "file": {
+                        "url": "traxanaskshros500.jpg"
+                    }
+                }
+            }
+        }
+    },
+    {
+      "sys": {
+          "id": "22"
+      },
+      "fields": {
+          "title": "LAZANIA OLIKHS 1KG",
+          "price": "19.99",
+          "image": {
+              "fields": {
+                  "file": {
+                      "url": "o2.jpg"
+                  }
+              }
+          }
+      }
+  },
+  {
+    "sys": {
+        "id": "23"
+    },
+    "fields": {
+        "title": "KRITHARAKI OLIKHS 1KG",
+        "price": "19.99",
+        "image": {
+            "fields": {
+                "file": {
+                    "url": "o3.jpg"
+                }
+            }
+        }
+    }
+}, 
+  {
+  "sys": {
+      "id": "24"
+  },
+  "fields": {
+      "title": "BIDES OLIKHS 500GR",
+      "price": "19.99",
+      "image": {
+          "fields": {
+              "file": {
+                  "url": "o5.jpg"
+              }
+          }
+      }
+  }
+},
+{
+  "sys": {
+      "id": "25"
+  },
+  "fields": {
+      "title": "KOXYLAKI OLIKHS 500GR",
+      "price": "4.99",
+      "image": {
+          "fields": {
+              "file": {
+                  "url": "o6.jpg"
+              }
+          }
+      }
+  }
+}
+    ]
+}

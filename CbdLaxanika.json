@@ -1,0 +1,21 @@
+{
+    "items":[
+   
+{
+    "sys": {
+        "id": "19"
+    },
+    "fields": {
+        "title": "BIDES ME FRESKA LAXANIKA 500GR",
+        "price": "19.99",
+        "image": {
+            "fields": {
+                "file": {
+                    "url": "L1.jpg"
+                }
+            }
+        }
+    }
+}
+    ]
+}
