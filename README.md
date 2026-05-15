@@ -101,11 +101,6 @@ Watch the full application demo here:
 
 ## Installation
 
-### Clone the repository
-
-```bash
-git clone https://github.com/ChristAris/ArkadikaMas.git
-```
 
 ### Navigate to project folder
 
