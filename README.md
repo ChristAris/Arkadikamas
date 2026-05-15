@@ -11,8 +11,8 @@ Watch the full application demo here:
 
 [View Demo Video](https://drive.google.com/file/d/1ugXFKu1s3D5iYcRn748IGKqW_gtbe_1W/view)
 
-Features
- User Features
+## Features
+ ## User Features
 *User registration and authentication
 *Product browsing and product details pages
 *Shopping cart functionality
@@ -22,14 +22,14 @@ Features
 *User profile editing
 *Responsive user interface
 
- Admin Features
+ ## Admin Features
 *Product management
 *Product editing and updates
 *User management
 *Order management
 *Administrative dashboard functionality
 
-Technologies Used
+## Technologies Used
  Frontend
 *HTML
 *CSS
@@ -41,7 +41,7 @@ Technologies Used
 
 
 
-Screenshots
+## Screenshots
 Home Page
 ![HOME Preview](homeark.png)
 
