@@ -101,13 +101,6 @@ Watch the full application demo here:
 
 ## Installation
 
-
-### Navigate to project folder
-
-```bash
-cd ArkadikaMas
-```
-
 ### Configure database connection
 
 Set up your MongoDB connection inside the backend configuration files.
@@ -119,7 +112,6 @@ Run the project through a local PHP server environment such as:
 - XAMPP
 - Laragon
 - WAMP
-
 ---
 
 ## Future Improvements
