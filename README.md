@@ -55,7 +55,7 @@ Shopping Cart
 
 
 Products
-![Cart Preview](Capture1.png)
+![Products Preview](Capture1.png)
 
 Product Details
 ![Cart Preview](detailsprod.png)
