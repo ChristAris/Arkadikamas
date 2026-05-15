@@ -51,11 +51,11 @@ About Us
 ![About us Preview](aboutus3ark.png)
 
 Shopping Cart
-![Cart Preview](Capture.png)
+![Cart Preview](Capture.PNG)
 
 
 Products
-![Products Preview](Capture1.png)
+![Products Preview](Capture1.PNG)
 
 Product Details
 ![Cart Preview](detailsprod.png)
